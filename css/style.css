@@ -851,7 +851,8 @@ footer .copyright a {
     font-size: 16px;
   }
   header .logo img {
-    width: 160px;
+    width: 100px;
+    height: 100px;
   }
   .top-content h1 {
     font-size: 2.2rem;
@@ -888,7 +889,8 @@ footer .copyright a {
     font-size: 14px;
   }
   header .logo img {
-    width: 140px;
+    width: 100px;
+    height: 100px;
   }
   header .location {
     display: none;
