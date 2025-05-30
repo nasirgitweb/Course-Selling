@@ -120,10 +120,10 @@ header {
   z-index: 999999;
   transition: all 0.2s ease;
 }
-header .logo img {
-  width: 100px;
-  height: 100px;
-}
+  header .logo img {
+    width: 100px;
+    height: 100px;
+  }
 header .menu-bar {
   display: none;
 }
