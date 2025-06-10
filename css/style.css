@@ -16,6 +16,7 @@ html {
   overflow-x: hidden;
 }
 body {
+  overflow-x: hidden;
   background-color: var(--primary-color);
 }
 img {
@@ -110,7 +111,7 @@ li {
 
 /* ============ Header Start ============= */
 header {
-  position: sticky;
+  position: fixed;
   width: 100%;
   top: 0px;
   background-color: #0000002d;
@@ -119,10 +120,10 @@ header {
   z-index: 999999;
   transition: all 0.2s ease;
 }
-  header .logo img {
-    width: 100px;
-    height: 100px;
-  }
+header .logo img {
+  width: 100px;
+  height: 100px;
+}
 header .menu-bar {
   display: none;
 }
@@ -821,7 +822,6 @@ footer .copyright a {
     color: var(--secondary-color);
     display: block;
   }
-
   header .header-btn a {
     margin-top: 5px;
     padding: 8px 20px;
@@ -850,8 +850,8 @@ footer .copyright a {
     font-size: 16px;
   }
   header .logo img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
   }
   .top-content h1 {
     font-size: 2.2rem;
@@ -888,8 +888,8 @@ footer .copyright a {
     font-size: 14px;
   }
   header .logo img {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
   }
   header .location {
     display: none;
