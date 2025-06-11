@@ -1,11 +1,11 @@
-// Sticky Header
-let navSlide = document.getElementById("header");
-let prevPos = window.scrollY;
-window.addEventListener("scroll", () => {
-  let newPos = window.scrollY;
-  newPos > prevPos? navSlide.classList.add("hide"): navSlide.classList.remove("hide");
-  prevPos = newPos;
-});
+// // Sticky Header
+// let navSlide = document.getElementById("header");
+// let prevPos = window.scrollY;
+// window.addEventListener("scroll", () => {
+//   let newPos = window.scrollY;
+//   newPos > prevPos? navSlide.classList.add("hide"): navSlide.classList.remove("hide");
+//   prevPos = newPos;
+// });
 
 // ======== Toggle Nav bar ==========
 const menuBar = document.getElementById("bar");
