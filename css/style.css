@@ -398,6 +398,10 @@ header.hide {
 .building-website .new-token {
   color: var(--light-green);
 }
+.building-website img{
+  border-radius: 40px;
+  width: 500px;
+}
 /* ============  Build website End ============= */
 
 /* ============ Our Projects Start ============= */
@@ -672,6 +676,10 @@ header.hide {
   background-color: var(--primary-color);
   min-height: 600px;
   color: var(--secondary-color);
+}
+.faq-section img{
+  width: 400px;
+  border-radius: 40px;
 }
 .accordion-progress {
   padding: 50px 0px 0px 0px;
